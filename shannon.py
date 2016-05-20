@@ -16,11 +16,12 @@ from process_concatenated_fasta import process_concatenated_fasta
 from extension_correction import  extension_correction
 
 #Set Paths
+#test
 shannon_dir = os.path.dirname(os.path.abspath(sys.argv[0])) + '/' 
 gpmetis_path = 'gpmetis'
-jellyfish_path = 'jellyfish'
+jellyfish_path = '/opt/quorum/bin/jellyfish'#'jellyfish'
 gnu_parallel_path = 'parallel'
-quorum_path = 'quorum'
+quorum_path = '/opt/quorum/bin/quorum'#'quorum'
 python_path = 'python'
 
 
